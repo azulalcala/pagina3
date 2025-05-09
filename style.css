@@ -1,9 +1,4 @@
 
-.list{
-    display: flex;
-    width: 100px;
-    height: 150px;
-  }
 
 .list{
     transform-style: preserve-3d;
@@ -15,11 +10,11 @@
     }
     .list .item:hover{
         filter: brightness(1);
-        transform: translate(200px);
+        transform: translateZ(200px);
     }
     .list .item:hover + *{
         filter:brightness(0.6);
-        transform: translate(150px) rotateY(40deg);
+        transform: translateZ(150px) rotateY(40deg);
     }
     .list .item:hover + * + *{
         filter:brightness(0.4);
