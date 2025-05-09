@@ -3,7 +3,7 @@
   width: 1010px;
   height: 150px;
 }
-.section .img{
+.section .item{
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
