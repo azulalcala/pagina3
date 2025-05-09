@@ -32,7 +32,7 @@
     }
     .list .item:hover + * + * + *{
         filter:brightness(0.2);
-        transform: translateZ(30px) rotateY(16deg);
+        transform: translateZ(30px) rotateY(10deg);
     }
     .list .item:has(+ *:hover){
         filter:brightness(0.6);
@@ -40,9 +40,9 @@
     }
     .list .item:has(+ * + *:hover){
         filter:brightness(0.4);
-        transform: translateZ(60px) rotateY(-20deg);
+        transform: translateZ(70px) rotateY(-20deg);
     }
     .list .item:has(+ * + * + *:hover){
-        filter:brightness(0.6);
+        filter:brightness(0.2);
         transform: translateZ(30px) rotateY(-10deg);
     }
