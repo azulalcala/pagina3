@@ -3,9 +3,11 @@
   width: 1010px;
   height: 150px;
 }
-.section .img{
-  width:100px;
-  height:150px;
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
 }
 
 .list{
