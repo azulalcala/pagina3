@@ -31,7 +31,7 @@ body{
     height: 300px;
     background-size: 100%;
     background-repeat: no-repeat;
-    animation: gifAnimation 0.3s linear infinite;
+    animation: gifAnimation 0.5s linear infinite;
     bottom: 0;
     animation-play-state: paused!important;
     transition: 1s;
@@ -61,7 +61,7 @@ body{
     }
 }
 .box:nth-child(2) .bird{
-    animation: gifAnimation1 0.3s linear infinite;
+    animation: gifAnimation1 0.5s linear infinite;
 }
 .box:nth-child(2) .bg{
     background-image: url(bg.jpg);
