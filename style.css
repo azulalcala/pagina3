@@ -31,7 +31,7 @@ body{
     height: 300px;
     background-size: 100%;
     background-repeat: no-repeat;
-    animation: gifAnimation 0.2s linear infinite;
+    animation: gifAnimation 0.1s linear infinite;
     bottom: 0;
     animation-play-state: paused!important;
     transition: 1s;
